@@ -9,7 +9,7 @@ The function **sparse_khatrirao** can be called either with two sparse matrices 
 
 ```matlab
 A = cell(1,4);
-for n = 1:10
+for n = 1:4
 	A{n} = sprand(10, 10, .5);
 end
 
