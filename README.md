@@ -2,7 +2,7 @@
 An efficiently implemented Matlab function for computing the Khatri-Rao product of sparse matrices.
 
 ## Installing and running
-All that needs to be done is compiling the C code, which can be done by navigating to the **help_functions** folder in Matlab and then running **mex sparse_khatrirao_c.c**. The function is then used by calling **sparse_khatrirao** in the root folder.
+All that needs to be done is compiling the C code, which can be done by navigating to the **help_functions** folder in Matlab and then running **mex sparse_khatrirao_c.c**. The function is then used by calling the m file **sparse_khatrirao** in the root folder.
 
 ## Example
 The function **sparse_khatrirao** can be called either with two sparse matrices as input, or with a single input in the form of a row or column cell containing sparse matrices. Both cases are illustrated below.
