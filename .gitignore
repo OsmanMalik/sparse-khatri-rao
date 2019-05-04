@@ -1,4 +1,5 @@
 *.asv
+*.mexw64
 
 # Will not add the following, for now...
 sparse_khatrirao_matlab.m
